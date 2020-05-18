@@ -10,7 +10,6 @@ Simple blog starter based fully on the official GatsbyJS one: [gatsby-starter-bl
 
 * create a simple website (blog)
 * add a new blog post
-* push it to GitHub
 * publish our website to Netlify
 * secure it with browser security headers
 
@@ -21,7 +20,7 @@ Simple blog starter based fully on the official GatsbyJS one: [gatsby-starter-bl
 
 ## Let’s go
 
-### Step 1. Create a simple website (blog). 
+### Step 1. Create a simple website (blog).
 
 Question 0 - which tech stack to use. We will be working with GatsbyJS ([GatsbyJS](https://www.gatsbyjs.org/)) which is an amazing static site generator allowing to create blazing fast websites at almost no time. I will not waste time enumerating all of the Gatsby features, but do make sure that you play with it. And if you happen to like the result, feel free to join GatsbyNYC Meetup ([Gatsby NYC (New York, NY) | Meetup](https://www.meetup.com/Gatsby-NYC/)) that I have an honor to co-host.
 
@@ -111,7 +110,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-## Adding a new blog post
+### Step 2. Add a new blog post
 
 The folder that is of interest to us is `content` - that’s where our blog posts live in the for of markdown files. And that’s where we will be adding our new blog post.
 
@@ -134,11 +133,14 @@ description: "Deploy Your Site Securely and Easily with Netlify and Browser Head
 * push it to GitHub
 * publish our website to Netlify
 * secure it with browser security headers
+
+Blog post content goes here...
 ```
 
 The part in between `---` is called the front matter.  You may have come across it if you have a blog on DEV.to. The rest is a good old markdown file. Just add your content and publish.
 
-Step 3. Publish our blog with Netlify.
+### Step 3. Publish our blog with Netlify.
+
 There are numerous ways to publish your static site these days, but Netlify is probably one of the coolest.
 
 Things we need to be successful:
@@ -153,7 +155,7 @@ Next steps are taken under assumption that you created a Netlify account and con
 
 So, within Netlify we click on `New site from Git` to setup our CD flow. Netlify will prompt us with the following:
 
-> ## Continuous Deployment
+> ### Continuous Deployment
 > Choose the Git provider where your site’s source code is hosted. When you push to Git, we run your build tool of choice on our servers and deploy the result.
 
 We chose GitHub, search for the needed repo and select it.
@@ -170,8 +172,7 @@ Always start with definition:
 Browser security headers - HTTP response headers that your application can use to increase the security of your application. Once set, these HTTP response headers can restrict modern browsers from running into easily preventable vulnerabilities.
 
 #### More information on headers:
-*OWASP Secure Headers Project*
-bit.ly/owasp-security-headers
+**OWASP Secure Headers Project** [Link](bit.ly/owasp-security-headers)
 
 **MDN docs**
 
@@ -187,7 +188,10 @@ Introduction to Browser Security Headers by Troy Hunt
 * Source: [Introduction to Browser Security Headers | Pluralsight](https://www.pluralsight.com/courses/browser-security-headers)
 
 #### How to add headers in Netlify
-RTFM. Netlify docs on custom headers: [Custom headers | Netlify Docs](https://docs.netlify.com/routing/headers/)
+
+RTFM. 
+
+Netlify docs on custom headers: [Custom headers | Netlify Docs](https://docs.netlify.com/routing/headers/)
 
 Straightforward, right? Let’s do it.
 
