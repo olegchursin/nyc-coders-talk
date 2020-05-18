@@ -2,7 +2,7 @@
 
 Simple blog starter based fully on the official GatsbyJS one: [gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c3f622b9-28b0-4128-b618-148a3218f325/deploy-status)](https://app.netlify.com/sites/nyc-coders-052020/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6f2a6346-e7e0-496b-9dbf-0b20dfb97481/deploy-status)](https://app.netlify.com/sites/deploy-and-secure/deploys)
 
 ## 🚀 Quick start
 
